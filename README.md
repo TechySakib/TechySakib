@@ -1,7 +1,7 @@
 <div align="center">
 
 <!--  ANIMATED HANDWRITTEN SIGNATURE HEADER  -->
-<!--  Save header.svg to your profile repo root, then this renders perfectly  -->
+<!--  Commit header.svg to your repo root alongside this README  -->
 <img width="100%" src="./header.svg" alt="Nazmus Sakib - Animated Signature Header"/>
 
 <!-- Subtitle Typing -->
@@ -129,23 +129,17 @@ Diving deep into advanced segmentation architectures for Hepatocellular Carcinom
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=TechySakib&theme=tokyonight&hide_border=true&include_all_commits=false&count_private=false&show_icons=true&rank_icon=github" height="180"/>
-&nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TechySakib&theme=tokyonight&hide_border=true&include_all_commits=false&count_private=false&layout=compact" height="180"/>
-
-<br/>
-
-<img src="https://streak-stats.demolab.com/?user=TechySakib&theme=tokyonight&hide_border=true" height="180"/>
+<img src="https://streak-stats.demolab.com/?user=TechySakib&theme=tokyonight&hide_border=true" height="175"/>
 
 </div>
 
 ---
 
-## 🏆 GitHub Trophies
+## 📈 Contribution Activity
 
 <div align="center">
 
-![](https://github-profile-trophy.vercel.app/?username=TechySakib&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&row=1)
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=TechySakib&theme=tokyo-night&hide_border=true&area=true" width="100%" alt="Contribution Graph"/>
 
 </div>
 
@@ -155,7 +149,7 @@ Diving deep into advanced segmentation architectures for Hepatocellular Carcinom
 
 <div align="center">
 
-![](https://github-contributor-stats.vercel.app/api?username=TechySakib&limit=5&theme=tokyonight&combine_all_yearly_contributions=true&hide_border=true)
+<img src="https://github-contributor-stats.vercel.app/api?username=TechySakib&limit=5&theme=tokyonight&combine_all_yearly_contributions=true&hide_border=true" alt="Top Contributed Repos"/>
 
 </div>
 
@@ -163,33 +157,46 @@ Diving deep into advanced segmentation architectures for Hepatocellular Carcinom
 
 ## 🐍 Contribution Snake
 
+<!--
+  SETUP REQUIRED — do this once in 2 minutes:
+  1. In your TechySakib/TechySakib repo, create: .github/workflows/snake.yml
+  2. Paste the content from the setup block below
+  3. Go to Actions tab → click "Generate Snake Animation" → Run workflow
+  4. After it runs, the snake SVG will appear here automatically!
+-->
+
 <div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TechySakib/TechySakib/output/github-snake-dark.svg"/>
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TechySakib/TechySakib/output/github-snake.svg"/>
-  <img alt="github contribution snake" src="https://raw.githubusercontent.com/TechySakib/TechySakib/output/github-snake.svg"/>
+  <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/TechySakib/TechySakib/output/github-snake.svg"/>
 </picture>
 
 </div>
 
 <details>
-<summary>⚙️ <b>Snake setup — one time, 2 minutes</b></summary>
+<summary>⚙️ <b>Click here — Snake setup (required, 2 min)</b></summary>
 <br/>
 
-Create `.github/workflows/snake.yml` in your profile repo:
+**Step 1:** In your profile repo, create the file `.github/workflows/snake.yml`
+
+**Step 2:** Paste this exactly:
 
 ```yaml
 name: Generate Snake Animation
+
 on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
   push:
     branches: [main]
+
 jobs:
   generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: Platane/snk/svg-only@v3
         with:
@@ -197,6 +204,7 @@ jobs:
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
+
       - uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
@@ -205,7 +213,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
 
-Go to **Actions tab → Run workflow manually** once. Done! 🎉
+**Step 3:** Go to your repo → **Actions tab** → **"Generate Snake Animation"** → **"Run workflow"** button → click **Run workflow**
+
+The snake SVG will be generated into the `output` branch and will show up here. It refreshes daily after that! 🎉
 
 </details>
 
