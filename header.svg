@@ -1,0 +1,159 @@
+<svg width="100%" viewBox="0 0 900 240" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Nazmus Sakib - animated signature header</title>
+<desc>Deep purple wave banner with handwritten animated signature of Nazmus Sakib</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#0d0221"/>
+    <stop offset="50%" stop-color="#1e0a3c"/>
+    <stop offset="100%" stop-color="#0d0221"/>
+  </linearGradient>
+  <linearGradient id="waveg1" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#4c1d95" stop-opacity="0.6"/>
+    <stop offset="100%" stop-color="#0d0221" stop-opacity="0.9"/>
+  </linearGradient>
+  <linearGradient id="waveg2" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.3"/>
+    <stop offset="100%" stop-color="#0d0221" stop-opacity="0.8"/>
+  </linearGradient>
+</defs>
+
+<rect width="900" height="240" fill="url(#bg)"/>
+
+<circle cx="80" cy="50" r="60" fill="#4c1d95" fill-opacity="0.18"/>
+<circle cx="820" cy="40" r="80" fill="#6d28d9" fill-opacity="0.12"/>
+<circle cx="450" cy="20" r="40" fill="#7c3aed" fill-opacity="0.1"/>
+
+<path d="M0,190 C150,160 300,210 450,185 C600,160 750,205 900,180 L900,240 L0,240 Z" fill="url(#waveg1)">
+  <animate attributeName="d" dur="6s" repeatCount="indefinite"
+    values="
+      M0,190 C150,160 300,210 450,185 C600,160 750,205 900,180 L900,240 L0,240 Z;
+      M0,182 C150,205 300,170 450,195 C600,215 750,175 900,192 L900,240 L0,240 Z;
+      M0,190 C150,160 300,210 450,185 C600,160 750,205 900,180 L900,240 L0,240 Z
+    "/>
+</path>
+<path d="M0,205 C200,182 400,220 600,198 C750,180 850,215 900,200 L900,240 L0,240 Z" fill="url(#waveg2)">
+  <animate attributeName="d" dur="9s" repeatCount="indefinite"
+    values="
+      M0,205 C200,182 400,220 600,198 C750,180 850,215 900,200 L900,240 L0,240 Z;
+      M0,200 C200,218 400,190 600,212 C750,225 850,195 900,210 L900,240 L0,240 Z;
+      M0,205 C200,182 400,220 600,198 C750,180 850,215 900,200 L900,240 L0,240 Z
+    "/>
+</path>
+
+<g opacity="0.5">
+  <circle cx="120" cy="70" r="1.5" fill="#c084fc"><animate attributeName="opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite"/></circle>
+  <circle cx="220" cy="35" r="1" fill="#e879f9"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="4s" repeatCount="indefinite"/></circle>
+  <circle cx="700" cy="55" r="2" fill="#a78bfa"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.5s" repeatCount="indefinite"/></circle>
+  <circle cx="780" cy="90" r="1.5" fill="#c084fc"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="5s" repeatCount="indefinite"/></circle>
+  <circle cx="55" cy="120" r="1" fill="#e879f9"><animate attributeName="opacity" values="0.2;0.7;0.2" dur="3.5s" repeatCount="indefinite"/></circle>
+  <circle cx="855" cy="110" r="1" fill="#c084fc"><animate attributeName="opacity" values="0.3;0.8;0.3" dur="4.5s" repeatCount="indefinite"/></circle>
+  <circle cx="350" cy="30" r="1.5" fill="#818cf8"><animate attributeName="opacity" values="0.2;0.6;0.2" dur="6s" repeatCount="indefinite"/></circle>
+</g>
+
+<g font-family="'Segoe Script', 'Brush Script MT', 'Comic Sans MS', cursive" font-style="italic">
+
+  <path id="N-stroke"
+    d="M245,155 L245,85 L295,148 L295,85"
+    fill="none" stroke="#c084fc" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"
+    pathLength="1" stroke-dasharray="1" stroke-dashoffset="1">
+    <animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.5s" begin="0.1s" fill="freeze"/>
+  </path>
+
+  <path id="a-stroke"
+    d="M318,148 C318,132 308,125 300,128 C290,132 287,145 292,152 C298,160 318,158 318,148 L318,155"
+    fill="none" stroke="#c084fc" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"
+    pathLength="1" stroke-dasharray="1" stroke-dashoffset="1">
+    <animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.4s" begin="0.55s" fill="freeze"/>
+  </path>
+
+  <path id="z-stroke"
+    d="M328,128 L352,128 L328,155 L354,155"
+    fill="none" stroke="#c084fc" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"
+    pathLength="1" stroke-dasharray="1" stroke-dashoffset="1">
+    <animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.35s" begin="0.93s" fill="freeze"/>
+  </path>
+
+  <path id="m-stroke"
+    d="M362,155 L362,128 C362,128 368,120 375,128 L375,155 M375,128 C375,128 382,120 389,128 L389,155"
+    fill="none" stroke="#c084fc" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"
+    pathLength="1" stroke-dasharray="1" stroke-dashoffset="1">
+    <animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="1.26s" fill="freeze"/>
+  </path>
+
+  <path id="u-stroke"
+    d="M398,128 L398,148 C398,158 418,160 418,148 L418,128 L418,158"
+    fill="none" stroke="#c084fc" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"
+    pathLength="1" stroke-dasharray="1" stroke-dashoffset="1">
+    <animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.35s" begin="1.69s" fill="freeze"/>
+  </path>
+
+  <path id="s1-stroke"
+    d="M438,130 C438,124 428,122 424,127 C420,132 425,138 433,140 C442,143 447,149 443,155 C439,160 428,160 424,155"
+    fill="none" stroke="#c084fc" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"
+    pathLength="1" stroke-dasharray="1" stroke-dashoffset="1">
+    <animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.4s" begin="2.02s" fill="freeze"/>
+  </path>
+
+  <path id="space-dot"
+    d="M460,155 L475,155"
+    fill="none" stroke="#a78bfa" stroke-width="2" stroke-linecap="round"
+    pathLength="1" stroke-dasharray="1" stroke-dashoffset="1">
+    <animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.2s" begin="2.4s" fill="freeze"/>
+  </path>
+
+  <path id="S2-stroke"
+    d="M510,102 C510,94 496,90 490,97 C483,105 490,114 502,117 C516,121 525,131 518,142 C511,153 495,155 487,147"
+    fill="none" stroke="#e879f9" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"
+    pathLength="1" stroke-dasharray="1" stroke-dashoffset="1">
+    <animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.5s" begin="2.58s" fill="freeze"/>
+  </path>
+
+  <path id="a2-stroke"
+    d="M543,155 C543,138 532,130 524,133 C514,137 511,150 517,157 C523,165 543,163 543,155 L543,162"
+    fill="none" stroke="#e879f9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"
+    pathLength="1" stroke-dasharray="1" stroke-dashoffset="1">
+    <animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.4s" begin="3.06s" fill="freeze"/>
+  </path>
+
+  <path id="k-stroke"
+    d="M553,85 L553,162 M553,138 L568,128 M558,135 L572,162"
+    fill="none" stroke="#e879f9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"
+    pathLength="1" stroke-dasharray="1" stroke-dashoffset="1">
+    <animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.4s" begin="3.44s" fill="freeze"/>
+  </path>
+
+  <path id="i-stroke"
+    d="M580,128 L580,162 M580,112 L580,118"
+    fill="none" stroke="#e879f9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"
+    pathLength="1" stroke-dasharray="1" stroke-dashoffset="1">
+    <animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.25s" begin="3.82s" fill="freeze"/>
+  </path>
+
+  <path id="b-stroke"
+    d="M592,85 L592,162 C592,162 592,128 605,128 C618,128 622,140 618,150 C614,162 592,162 592,162"
+    fill="none" stroke="#e879f9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"
+    pathLength="1" stroke-dasharray="1" stroke-dashoffset="1">
+    <animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="4.05s" fill="freeze"/>
+  </path>
+
+  <path id="underline"
+    d="M242,172 C350,165 500,168 632,172"
+    fill="none" stroke="url(#waveg1)" stroke-width="2.5" stroke-linecap="round"
+    pathLength="1" stroke-dasharray="1" stroke-dashoffset="1">
+    <animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.6s" begin="4.48s" fill="freeze"/>
+  </path>
+  <path id="underline2"
+    d="M242,172 C350,165 500,168 632,172"
+    fill="none" stroke="#7c3aed" stroke-width="2.5" stroke-linecap="round" opacity="0.6"
+    pathLength="1" stroke-dasharray="1" stroke-dashoffset="1">
+    <animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.6s" begin="4.48s" fill="freeze"/>
+  </path>
+</g>
+
+<text x="450" y="200" text-anchor="middle"
+  font-family="'Courier New', 'Lucida Console', monospace"
+  font-size="11" fill="#a78bfa" letter-spacing="6" opacity="0">
+  AI ENTHUSIAST  ·  CSE STUDENT  ·  BANGLADESH
+  <animate attributeName="opacity" values="0;0.8" dur="0.8s" begin="5s" fill="freeze"/>
+</text>
+</svg>
