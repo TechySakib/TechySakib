@@ -125,16 +125,6 @@ Diving deep into advanced segmentation architectures for Hepatocellular Carcinom
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com/?user=TechySakib&theme=tokyonight&hide_border=true" height="175"/>
-
-</div>
-
----
-
 ## 📈 Contribution Activity
 
 <div align="center">
