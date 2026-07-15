@@ -125,28 +125,6 @@ Diving deep into advanced segmentation architectures for Hepatocellular Carcinom
 
 ---
 
-## 📈 Contribution Activity
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=TechySakib&theme=tokyo-night&hide_border=true&area=true" width="100%" alt="Contribution Graph"/>
-
-</div>
-
----
-
-## 🔝 Top Contributed Repos
-
-<div align="center">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=TechySakib&theme=tokyonight" width="100%" alt="Profile Summary"/>
-<br/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=TechySakib&theme=tokyonight" height="180"/>
-&nbsp;&nbsp;
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=TechySakib&theme=tokyonight" height="180"/>
-</div>
-
----
-
 ## 🐍 Contribution Snake
 
 <div align="center">
